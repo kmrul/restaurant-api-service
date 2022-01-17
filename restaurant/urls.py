@@ -7,6 +7,7 @@ from rest_framework.schemas import get_schema_view
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('restaurant/', include('base.urls'), name='base'),
+    path('menu/', include('menu.urls'), name='menu'),
     path('auth/', include('auth.urls'), name='auth'),
     path('api/', get_schema_view(
         title="Restaurant Service",
