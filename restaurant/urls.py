@@ -8,9 +8,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('restaurant/', include('base.urls'), name='base'),
     path('menu/', include('menu.urls'), name='menu'),
+    path('employee/', include('employee.urls'), name='employee'),
     path('auth/', include('auth.urls'), name='auth'),
     path('api/', get_schema_view(
-        title="Restaurant Service",
+        title="Restaurant API Service",
         description="API developers hoping to use our service"
     ), name='api-schema'),
     path('', TemplateView.as_view(
