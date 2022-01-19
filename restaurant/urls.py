@@ -11,7 +11,7 @@ urlpatterns = [
     path('employee/', include('employee.urls'), name='employee'),
     path('auth/', include('auth.urls'), name='auth'),
     path('api/', get_schema_view(
-        title="Restaurant API Service",
+        title="Restaurant APIs Service",
         description="API developers hoping to use our service"
     ), name='api-schema'),
     path('', TemplateView.as_view(
