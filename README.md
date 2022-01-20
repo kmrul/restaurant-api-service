@@ -9,7 +9,9 @@ Create a virtualenv then activate this vertualenv
 
 Step 2: 
 Commnad on install requirements libray
-``` $ pip install -r requirements.txt ```
+``` 
+$ pip install -r requirements.txt 
+```
 
 
 Step 3:
