@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'base',
     'menu',
     'employee',
+    'vote',
 ]
 
 MIDDLEWARE = [

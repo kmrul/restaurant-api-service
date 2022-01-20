@@ -9,6 +9,7 @@ urlpatterns = [
     path('restaurant/', include('base.urls'), name='base'),
     path('menu/', include('menu.urls'), name='menu'),
     path('employee/', include('employee.urls'), name='employee'),
+    path('vote/', include('vote.urls'), name='vote'),
     path('auth/', include('auth.urls'), name='auth'),
     path('api/', get_schema_view(
         title="Restaurant APIs Service",
