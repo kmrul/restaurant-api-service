@@ -28,3 +28,6 @@ $ python manage.py runserver
 ```
 
 After that browse this url: http://127.0.0.1:8000/
+
+
+Happy coding
